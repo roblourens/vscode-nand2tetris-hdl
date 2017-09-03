@@ -1,0 +1,100 @@
+{
+    "Nand": {
+        "prefix": "Nand",
+        "body": [
+            "Nand(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Nand gate"
+    },
+    "Not": {
+        "prefix": "Not",
+        "body": [
+            "Not(in=$1, out=$2);$3"
+        ],
+        "description": "Not gate"
+    },
+    "And": {
+        "prefix": "And",
+        "body": [
+            "And(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "And gate"
+    },
+    "And16": {
+        "prefix": "And16",
+        "body": [
+            "And16(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "And16 gate"
+    },
+    "Or": {
+        "prefix": "Or",
+        "body": [
+            "Or(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Or gate"
+    },
+    "Or16": {
+        "prefix": "Or16",
+        "body": [
+            "Or16(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Or16 gate"
+    },
+    "Xor": {
+        "prefix": "Xor",
+        "body": [
+            "Xor(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Xor gate"
+    },
+    "Mux": {
+        "prefix": "Mux",
+        "body": [
+            "Mux(a=$1, b=$2, sel=$3, out=$4);$5"
+        ],
+        "description": "Mux gate"
+    },
+    "Mux16": {
+        "prefix": "Mux16",
+        "body": [
+            "Mux16(a=$1, b=$2, sel=$3, out=$4);$5"
+        ],
+        "description": "Mux16 gate"
+    },
+    "Mux4Way16": {
+        "prefix": "Mux4Way16",
+        "body": [
+            "Mux4Way16(a=$1, b=$2, c=$4, d=$5, sel=$6, out=$7);$8"
+        ],
+        "description": "Mux4Way16 gate"
+    },
+    "Mux8Way16": {
+        "prefix": "Mux8Way16",
+        "body": [
+            "Mux4Way16(a=$1, b=$2, c=$4, d=$5, e=$6, f=$7, g=$8, h=$9, sel=$10, out=$11);$12"
+        ],
+        "description": "Mux8Way16 gate"
+    },
+    "DMux": {
+        "prefix": "DMux",
+        "body": [
+            "DMux(in=$1, sel=$2, a=$3, b=$4);$5"
+        ],
+        "description": "DMux gate"
+    },
+    "DMux4Way": {
+        "prefix": "DMux4Way",
+        "body": [
+            "DMux4Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6);$7"
+        ],
+        "description": "DMux4Way gate"
+    },
+    "DMux8Way": {
+        "prefix": "DMux8Way",
+        "body": [
+            "DMux8Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6, e=$7, f=$8, g=$9, h=$10, out=$11);$12"
+        ],
+        "description": "DMux8Way gate"
+    }
+}

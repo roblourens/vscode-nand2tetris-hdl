@@ -2,7 +2,7 @@
     "name": "vscode-nand2tetris-hdl",
     "displayName": "Nand2Tetris-HDL",
     "description": "Snippets and syntax highlighting for the HDL language from the Nand2Tetris course.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "roblourens",
     "engines": {
         "vscode": "^1.13.0"
@@ -29,102 +29,8 @@
         }],
         "snippets": [
             {
-                "prefix": "Nand",
-                "body": [
-                    "Nand(a=$1, b=$2, out=$3);$4"
-                ],
-                "description": "Nand gate"
-            },
-            {
-                "prefix": "Not",
-                "body": [
-                    "Not(in=$1, out=$2);$3"
-                ],
-                "description": "Not gate"
-            },
-            {
-                "prefix": "And",
-                "body": [
-                    "And(a=$1, b=$2, out=$3);$4"
-                ],
-                "description": "And gate"
-            },
-            {
-                "prefix": "And16",
-                "body": [
-                    "And16(a=$1, b=$2, out=$3);$4"
-                ],
-                "description": "And16 gate"
-            },
-            {
-                "prefix": "Or",
-                "body": [
-                    "Or(a=$1, b=$2, out=$3);$4"
-                ],
-                "description": "Or gate"
-            },
-            {
-                "prefix": "Or16",
-                "body": [
-                    "Or16(a=$1, b=$2, out=$3);$4"
-                ],
-                "description": "Or16 gate"
-            },
-            {
-                "prefix": "Xor",
-                "body": [
-                    "Xor(a=$1, b=$2, out=$3);$4"
-                ],
-                "description": "Xor gate"
-            },
-            {
-                "prefix": "Mux",
-                "body": [
-                    "Mux(a=$1, b=$2, sel=$3, out=$4);$5"
-                ],
-                "description": "Mux gate"
-            },
-            {
-                "prefix": "Mux16",
-                "body": [
-                    "Mux16(a=$1, b=$2, sel=$3, out=$4);$5"
-                ],
-                "description": "Mux16 gate"
-            },
-            {
-                "prefix": "Mux4Way16",
-                "body": [
-                    "Mux4Way16(a=$1, b=$2, c=$4, d=$5, sel=$6, out=$7);$8"
-                ],
-                "description": "Mux4Way16 gate"
-            },
-            {
-                "prefix": "Mux8Way16",
-                "body": [
-                    "Mux4Way16(a=$1, b=$2, c=$4, d=$5, e=$6, f=$7, g=$8, h=$9, sel=$10, out=$11);$12"
-                ],
-                "description": "Mux8Way16 gate"
-            },
-            {
-                "prefix": "DMux",
-                "body": [
-                    "DMux(in=$1, sel=$2, a=$3, b=$4);$5"
-                ],
-                "description": "DMux gate"
-            },
-            {
-                "prefix": "DMux4Way",
-                "body": [
-                    "DMux4Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6);$7"
-                ],
-                "description": "DMux4Way gate"
-            },
-            {
-                "prefix": "DMux8Way",
-                "body": [
-                    "DMux8Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6, e=$7, f=$8, g=$9, h=$10, out=$11);$12"
-                ],
-                "description": "DMux8Way gate"
+                "language": "hdl",
+                "path": "./hdl.snippets.json"
             }
         ]
     }
