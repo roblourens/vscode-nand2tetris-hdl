@@ -20,7 +20,7 @@
         "grammars": [{
             "language": "hdl",
             "scopeName": "source.hdl",
-            "path": "./syntaxes/hdl.tmLanguage"
+            "path": "./syntaxes/hdl.tmLanguage.json"
         }]
     }
 }
