@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>hdl</string>
+	</array>
+	<key>name</key>
+	<string>HDL</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>\/\*</string>
+			<key>comment</key>
+			<string>Block comment</string>
+			<key>end</key>
+			<string>\*\/</string>
+			<key>name</key>
+			<string>comment.block.hdl</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\/\/</string>
+			<key>comment</key>
+			<string>Line comment</string>
+			<key>end</key>
+			<string>\n</string>
+			<key>name</key>
+			<string>comment.line.hdl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>keywords</string>
+			<key>match</key>
+			<string>IN|OUT|PARTS</string>
+			<key>name</key>
+			<string>keyword.hdl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>true, false</string>
+			<key>match</key>
+			<string>true|false</string>
+			<key>name</key>
+			<string>constant.language.hdl</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric.hdl</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>bus index</string>
+			<key>match</key>
+			<string>\[([\d]+)\]</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric.hdl</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>.. in bus slicing</string>
+			<key>match</key>
+			<string>\[(\d+\.{2}\d+)\]</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>chip name</string>
+			<key>match</key>
+			<string>CHIP</string>
+			<key>name</key>
+			<string>storage.type.hdl</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.hdl</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>inner chip</string>
+			<key>match</key>
+			<string>([\w\d\_]+)\s*\(</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter.hdl</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>inner chip inputs and outputs</string>
+			<key>match</key>
+			<string>([\w\d\_]+)=</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.hdl</string>
+	<key>uuid</key>
+	<string>149c1eba-ff47-402a-925d-83eb2a5552f4</string>
+</dict>
+</plist>

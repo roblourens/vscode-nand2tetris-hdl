@@ -1,0 +1,26 @@
+{
+    "name": "nand2tetris-hdl",
+    "displayName": "nand2tetris-hdl",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "roblourens",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "hdl",
+            "aliases": ["HDL", "hdl"],
+            "extensions": [".hdl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "hdl",
+            "scopeName": "source.hdl",
+            "path": "./syntaxes/hdl.tmLanguage"
+        }]
+    }
+}
