@@ -1,11 +1,16 @@
 {
-    "name": "nand2tetris-hdl",
-    "displayName": "nand2tetris-hdl",
-    "description": "",
+    "name": "vscode-nand2tetris-hdl",
+    "displayName": "Nand2Tetris-HDL",
+    "description": "Snippets and syntax highlighting for the HDL language from the Nand2Tetris course.",
     "version": "0.0.1",
     "publisher": "roblourens",
     "engines": {
         "vscode": "^1.13.0"
+    },
+    "icon": "./images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/roblourens/vscode-nand2tetris-hdl"
     },
     "categories": [
         "Languages"
