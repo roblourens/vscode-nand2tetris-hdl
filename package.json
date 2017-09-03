@@ -2,7 +2,7 @@
     "name": "vscode-nand2tetris-hdl",
     "displayName": "Nand2Tetris-HDL",
     "description": "Snippets and syntax highlighting for the HDL language from the Nand2Tetris course.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "roblourens",
     "engines": {
         "vscode": "^1.13.0"
