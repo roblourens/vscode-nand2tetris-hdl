@@ -13,6 +13,13 @@
         ],
         "description": "Not gate"
     },
+    "Not16": {
+        "prefix": "Not16",
+        "body": [
+            "Not16(in=$1, out=$2);$3"
+        ],
+        "description": "Not16 gate"
+    },
     "And": {
         "prefix": "And",
         "body": [
@@ -40,6 +47,13 @@
             "Or16(a=$1, b=$2, out=$3);$4"
         ],
         "description": "Or16 gate"
+    },
+    "Or8Way": {
+        "prefix": "Or8Way",
+        "body": [
+            "Or8Way(in=$1, out=$2);$3"
+        ],
+        "description": "Or8Way gate"
     },
     "Xor": {
         "prefix": "Xor",
@@ -96,5 +110,40 @@
             "DMux8Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6, e=$7, f=$8, g=$9, h=$10, out=$11);$12"
         ],
         "description": "DMux8Way gate"
+    },
+    "HalfAdder": {
+        "prefix": "HalfAdder",
+        "body": [
+            "HalfAdder(a=$1, b=$2, sum=$3, carry=$4);$5"
+        ],
+        "description": "Half adder"
+    },
+    "FullAdder": {
+        "prefix": "FullAdder",
+        "body": [
+            "FullAdder(a=$1, b=$2, c=$3, sum=$4, carry=$5);$6"
+        ],
+        "description": "Full adder"
+    },
+    "Add16": {
+        "prefix": "Add16",
+        "body": [
+            "Add16(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Add16"
+    },
+    "ALU": {
+        "prefix": "ALU",
+        "body": [
+            "ALU(x=$1, y=$2, zx=$3, nx=$4, zy=$5, ny=$6, f=$7, no=$8, out=$9, zr=$10, ng=$11);$12"
+        ],
+        "description": "ALU"
+    },
+    "Inc16": {
+        "prefix": "Inc16",
+        "body": [
+            "Inc16(in=$1, out=$2);$3"
+        ],
+        "description": "Inc16"
     }
 }
