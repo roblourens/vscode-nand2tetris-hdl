@@ -1,0 +1,261 @@
+{
+    "Add16": {
+        "prefix": "Add16",
+        "body": [
+            "Add16(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Add16 gate"
+    },
+    "ALU": {
+        "prefix": "ALU",
+        "body": [
+            "ALU(x=$1, y=$2, zx=$3, nx=$4, zy=$5, ny=$6, f=$7, no=$8, out=$9, zr=$10, ng=$11);$12"
+        ],
+        "description": "ALU gate"
+    },
+    "And16": {
+        "prefix": "And16",
+        "body": [
+            "And16(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "And16 gate"
+    },
+    "And": {
+        "prefix": "And",
+        "body": [
+            "And(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "And gate"
+    },
+    "ARegister": {
+        "prefix": "ARegister",
+        "body": [
+            "ARegister(in=$1, load=$2, out=$3);$4"
+        ],
+        "description": "ARegister gate"
+    },
+    "Bit": {
+        "prefix": "Bit",
+        "body": [
+            "Bit(in=$1, load=$2, out=$3);$4"
+        ],
+        "description": "Bit gate"
+    },
+    "CPU": {
+        "prefix": "CPU",
+        "body": [
+            "CPU(inM=$1, instruction=$2, reset=$3, outM=$4, writeM=$5, addressM=$6, pc=$7);$8"
+        ],
+        "description": "CPU gate"
+    },
+    "DFF": {
+        "prefix": "DFF",
+        "body": [
+            "DFF(in=$1, out=$2);$3"
+        ],
+        "description": "DFF gate"
+    },
+    "DMux4Way": {
+        "prefix": "DMux4Way",
+        "body": [
+            "DMux4Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6);$7"
+        ],
+        "description": "DMux4Way gate"
+    },
+    "DMux8Way": {
+        "prefix": "DMux8Way",
+        "body": [
+            "DMux8Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6, e=$7, f=$8, g=$9, h=$10);$11"
+        ],
+        "description": "DMux8Way gate"
+    },
+    "DMux": {
+        "prefix": "DMux",
+        "body": [
+            "DMux(in=$1, sel=$2, a=$3, b=$4);$5"
+        ],
+        "description": "DMux gate"
+    },
+    "DRegister": {
+        "prefix": "DRegister",
+        "body": [
+            "DRegister(in=$1, load=$2, out=$3);$4"
+        ],
+        "description": "DRegister gate"
+    },
+    "FullAdder": {
+        "prefix": "FullAdder",
+        "body": [
+            "FullAdder(a=$1, b=$2, c=$3, sum=$4, carry=$5);$6"
+        ],
+        "description": "FullAdder gate"
+    },
+    "HalfAdder": {
+        "prefix": "HalfAdder",
+        "body": [
+            "HalfAdder(a=$1, b=$2, sum=$3, carry=$4);$5"
+        ],
+        "description": "HalfAdder gate"
+    },
+    "Inc16": {
+        "prefix": "Inc16",
+        "body": [
+            "Inc16(in=$1, out=$2);$3"
+        ],
+        "description": "Inc16 gate"
+    },
+    "Keyboard": {
+        "prefix": "Keyboard",
+        "body": [
+            "Keyboard(out=$1);$2"
+        ],
+        "description": "Keyboard gate"
+    },
+    "Memory": {
+        "prefix": "Memory",
+        "body": [
+            "Memory(in=$1, load=$2, address=$3, out=$4);$5"
+        ],
+        "description": "Memory gate"
+    },
+    "Mux16": {
+        "prefix": "Mux16",
+        "body": [
+            "Mux16(a=$1, b=$2, sel=$3, out=$4);$5"
+        ],
+        "description": "Mux16 gate"
+    },
+    "Mux4Way16": {
+        "prefix": "Mux4Way16",
+        "body": [
+            "Mux4Way16(a=$1, b=$2, c=$3, d=$4, sel=$5, out=$6);$7"
+        ],
+        "description": "Mux4Way16 gate"
+    },
+    "Mux8Way16": {
+        "prefix": "Mux8Way16",
+        "body": [
+            "Mux8Way16(a=$1, b=$2, c=$3, d=$4, e=$5, f=$6, g=$7, h=$8, sel=$9, out=$10);$11"
+        ],
+        "description": "Mux8Way16 gate"
+    },
+    "Mux": {
+        "prefix": "Mux",
+        "body": [
+            "Mux(a=$1, b=$2, sel=$3, out=$4);$5"
+        ],
+        "description": "Mux gate"
+    },
+    "Nand": {
+        "prefix": "Nand",
+        "body": [
+            "Nand(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Nand gate"
+    },
+    "Not16": {
+        "prefix": "Not16",
+        "body": [
+            "Not16(in=$1, out=$2);$3"
+        ],
+        "description": "Not16 gate"
+    },
+    "Not": {
+        "prefix": "Not",
+        "body": [
+            "Not(in=$1, out=$2);$3"
+        ],
+        "description": "Not gate"
+    },
+    "Or16": {
+        "prefix": "Or16",
+        "body": [
+            "Or16(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Or16 gate"
+    },
+    "Or8Way": {
+        "prefix": "Or8Way",
+        "body": [
+            "Or8Way(in=$1, out=$2);$3"
+        ],
+        "description": "Or8Way gate"
+    },
+    "Or": {
+        "prefix": "Or",
+        "body": [
+            "Or(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Or gate"
+    },
+    "PC": {
+        "prefix": "PC",
+        "body": [
+            "PC(in=$1, load=$2, inc=$3, reset=$4, out=$5);$6"
+        ],
+        "description": "PC gate"
+    },
+    "RAM16K": {
+        "prefix": "RAM16K",
+        "body": [
+            "RAM16K(in=$1, load=$2, address=$3, out=$4);$5"
+        ],
+        "description": "RAM16K gate"
+    },
+    "RAM4K": {
+        "prefix": "RAM4K",
+        "body": [
+            "RAM4K(in=$1, load=$2, address=$3, out=$4);$5"
+        ],
+        "description": "RAM4K gate"
+    },
+    "RAM512": {
+        "prefix": "RAM512",
+        "body": [
+            "RAM512(in=$1, load=$2, address=$3, out=$4);$5"
+        ],
+        "description": "RAM512 gate"
+    },
+    "RAM64": {
+        "prefix": "RAM64",
+        "body": [
+            "RAM64(in=$1, load=$2, address=$3, out=$4);$5"
+        ],
+        "description": "RAM64 gate"
+    },
+    "RAM8": {
+        "prefix": "RAM8",
+        "body": [
+            "RAM8(in=$1, load=$2, address=$3, out=$4);$5"
+        ],
+        "description": "RAM8 gate"
+    },
+    "Register": {
+        "prefix": "Register",
+        "body": [
+            "Register(in=$1, load=$2, out=$3);$4"
+        ],
+        "description": "Register gate"
+    },
+    "ROM32K": {
+        "prefix": "ROM32K",
+        "body": [
+            "ROM32K(address=$1, out=$2);$3"
+        ],
+        "description": "ROM32K gate"
+    },
+    "Screen": {
+        "prefix": "Screen",
+        "body": [
+            "Screen(in=$1, load=$2, address=$3, out=$4);$5"
+        ],
+        "description": "Screen gate"
+    },
+    "Xor": {
+        "prefix": "Xor",
+        "body": [
+            "Xor(a=$1, b=$2, out=$3);$4"
+        ],
+        "description": "Xor gate"
+    }
+}

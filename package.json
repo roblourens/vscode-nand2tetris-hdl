@@ -30,7 +30,7 @@
         "snippets": [
             {
                 "language": "hdl",
-                "path": "./hdl.snippets.json"
+                "path": "./snippets/hdl.snippets.json"
             }
         ]
     }
