@@ -73,7 +73,7 @@
         }
       },
       "comment": "inner chip inputs and outputs",
-      "match": "([\\w\\d\\_]+)="
+      "match": "([\\w\\d\\_]+)\\s*="
     }
   ],
   "scopeName": "source.hdl",
