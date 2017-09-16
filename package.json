@@ -44,7 +44,7 @@
         ],
         "snippets": [
             {
-                "language": "hdl",
+                "language": "hack_hdl",
                 "path": "./snippets/hdl.snippets.json"
             }
         ]
