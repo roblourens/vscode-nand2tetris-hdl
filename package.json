@@ -1,7 +1,7 @@
 {
     "name": "vscode-nand2tetris-hdl",
-    "displayName": "Nand2Tetris-HDL",
-    "description": "Snippets and syntax highlighting for the HDL language from the Nand2Tetris course.",
+    "displayName": "Nand2Tetris",
+    "description": "Snippets and syntax highlighting for the HDL and ASM languages from the Nand2Tetris course.",
     "version": "0.0.5",
     "publisher": "roblourens",
     "engines": {
@@ -16,17 +16,32 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "hdl",
-            "aliases": ["HDL", "hdl"],
-            "extensions": [".hdl"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "hdl",
-            "scopeName": "source.hdl",
-            "path": "./syntaxes/hdl.tmLanguage.json"
-        }],
+        "languages": [
+            {
+                "id": "hack_hdl",
+                "aliases": ["HDL (Hack)"],
+                "extensions": [".hdl"],
+                "configuration": "./hdl.language-configuration.json"
+            },
+            {
+                "id": "hack_asm",
+                "aliases": ["ASM (Hack)"],
+                "extensions": [ ".asm" ],
+                "configuration": "./asm.language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "hack_hdl",
+                "scopeName": "source.hdl",
+                "path": "./syntaxes/hdl.tmLanguage.json"
+            },
+            {
+                "language": "hack_asm",
+                "scopeName": "source.hack_asm",
+                "path": "./syntaxes/hack.tmLanguage.json"
+            }
+        ],
         "snippets": [
             {
                 "language": "hdl",
