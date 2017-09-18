@@ -23,7 +23,7 @@
 		},
 		{
 			"comment": "@ operator",
-			"match": "\\@(.*)",
+			"match": "\\@([^ \\/]*)",
 			"name": "keyword.operator.a",
 			"captures": {
 				"1": {
