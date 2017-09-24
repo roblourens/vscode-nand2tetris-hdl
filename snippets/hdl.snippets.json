@@ -257,5 +257,19 @@
             "Xor(a=$1, b=$2, out=$3);$4"
         ],
         "description": "Xor gate"
+    },
+    "false": {
+        "prefix": "false",
+        "body": [
+            "false"
+        ],
+        "description": "Set the pin value to 0"
+    },
+    "true": {
+        "prefix": "true",
+        "body": [
+            "true"
+        ],
+        "description": "Set the pin value to 0"
     }
 }

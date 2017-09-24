@@ -70,10 +70,13 @@
       "captures": {
         "1": {
           "name": "variable.parameter.hdl"
+        },
+        "3":{
+          "name": "constant.numeric.hdl"
         }
       },
       "comment": "inner chip inputs and outputs",
-      "match": "([\\w\\d\\_]+)\\s*="
+      "match": "([\\w\\d\\_]+)(\\[(\\d+(\\.\\.\\d+)?)\\])?\\s*="
     }
   ],
   "scopeName": "source.hdl",
