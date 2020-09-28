@@ -49,7 +49,7 @@ function getBody(name, params) {
         body += params[i] + '=$' + (i + 1);
 
         if (i === params.length - 1) {
-            body += ');$' + (i + 2);
+            body += ');';
         } else {
             body += ', ';
         }
